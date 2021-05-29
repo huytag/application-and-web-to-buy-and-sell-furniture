@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="#ffffff"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="18sp"
+                    android:text="id"
+                    android:id="@+id/textviewid"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textColor="#177BAA"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/textviewtenkh"
+                    android:textColor="#B321CC"
+                    android:text="tên khách hàng"
+                    android:textSize="18sp"
+                    android:layout_margin="5dp"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/textviewsdt"
+                    android:textColor="#FF9800"
+                    android:layout_margin="5dp"
+                    android:text="số điện thoại"
+                    android:textSize="18sp"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/textviewEmail"
+                    android:textColor="#F44336"
+                    android:layout_margin="5dp"
+                    android:text="email"
+                    android:textSize="18sp"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

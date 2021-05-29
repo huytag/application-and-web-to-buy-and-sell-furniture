@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Đăng kí"
+        android:textColor="#90c40909"
+        android:textSize="33dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/txtNameDK"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Họ tên"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtEmailDK"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Địa chỉ Email"
+        android:inputType="textEmailAddress" />
+
+
+    <EditText
+        android:id="@+id/txtPassDK"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/txtPassnhaplaiDK"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập lại mật khẩu"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnDangkiDK"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#3498db"
+        android:text="Đăng kí"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/btnDangnhapDK"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#b45705"
+        android:text="Đăng nhập"
+        android:textColor="#fff" />
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/loading"
+        >
+
+    </ProgressBar>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="HOẶC"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btnGoogle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#dc4e41"
+        android:text="Thoát"
+        android:textAllCaps="false"
+        android:textColor="#fff" />
+
+</LinearLayout>

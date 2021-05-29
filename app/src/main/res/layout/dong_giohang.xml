@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="10">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3">
+        <ImageView
+            android:adjustViewBounds="true"
+            android:layout_margin="5dp"
+            android:id="@+id/imageViewgiohang"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="7"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="25sp"
+            android:id="@+id/textviewtengiohang"
+            android:textColor="#000"
+            android:text="Ten mon hang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:textSize="20sp"
+            android:layout_marginTop="3dp"
+            android:id="@+id/textviewgiatrigiohang"
+            android:textColor="#D81111"
+            android:text="gia tri gio hang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:focusable="false"
+                android:textSize="30sp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/buttongiamsl"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#000"
+                android:text="-"
+                />
+            <Button
+                android:id="@+id/buttonggiatrisl"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#FFFFFF"
+                android:textColor="#000"
+                android:focusable="false"
+                android:text="1"
+                android:textSize="30sp" />
+            <Button
+                android:backgroundTint="#000000"
+                android:id="@+id/buttongtangsl"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:focusable="false"
+                android:text="+"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

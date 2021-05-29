@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ungdungmuabandogo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UngDungMuaBanDoGo"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activiti.activity_tongquansuamathang" />
+        <activity android:name=".activiti.activity_tongquanxoa" />
+        <activity android:name=".activiti.activity_suamathang" />
+        <activity android:name=".activiti.activiti_xoa1sanpham" />
+        <activity android:name=".activiti.activity_tongquanmh" />
+        <activity android:name=".activiti.activity_chitietKH" />
+        <activity android:name=".activiti.activity_xemchitiethoadon" />
+        <activity android:name=".activiti.activity_themmathang" />
+        <activity android:name=".activiti.activity_thongtinkhachhang" />
+        <activity android:name=".activiti.activiti_giohang" />
+        <activity android:name=".activiti.activity_chitietsanpham" />
+        <activity android:name=".activiti.activity_banthogo" />
+        <activity android:name=".activiti.activity_moctreo" />
+        <activity android:name=".activiti.activity_tugo" />
+        <activity android:name=".activiti.acticity_lienhe" />
+        <activity android:name=".activiti.acticity_ghego" />
+        <activity android:name=".activiti.activity_bango" />
+        <activity android:name=".activiti.Center_dogo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".dangky" />
+        <activity android:name=".Center" />
+        <activity android:name=".Login" />
+    </application>
+
+</manifest>
